@@ -1,1 +1,37 @@
+body {
+  background: #FFF6EC;
+  font-family: Georgia, serif;
+  color: #5A3E36;
+  margin: 0;
+}
 
+.container {
+  display: flex;
+}
+
+#video {
+  width: 70%;
+  height: 500px;
+}
+
+.side-panel {
+  width: 30%;
+  padding: 20px;
+  background: #FFD6B8;
+  border-radius: 20px;
+}
+
+button {
+  background: #E97B5C;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.counters {
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+}
